@@ -1,0 +1,33 @@
+<Configuration ID="8c69dcc7-a889-4f9e-b487-e0dd11c20bcd"> <Info Description="Configuratie voor Paction" />
+<Add OfficeClientEdition="64" Channel="PerpetualVL2019">
+<Product ID="ProPlus2019Volume" PIDKEY="NMMKJ-6RK4F-KMJVX-8D9MJ-6MWKP">
+<Language ID="nl-nl" /> <ExcludeApp ID="OneNote" />
+<ExcludeApp ID="Excel" />
+<ExcludeApp ID="Teams" />
+<ExcludeApp ID="Outlook" />
+<ExcludeApp ID="Forms" />
+<ExcludeApp ID="Lists" />
+<ExcludeApp ID="OneDrive" />
+<ExcludeApp ID="Planner" />
+<ExcludeApp ID="Project" />
+<ExcludeApp ID="Sharepoint" />
+<ExcludeApp ID="Access" />
+<ExcludeApp ID="Publisher" />
+<ExcludeApp ID="Skype for Business Retail" />
+<ExcludeApp ID="OneDrive for Business Retail" /> <ExcludeApp ID="Skype" />
+<ExcludeApp ID="Lync" />
+<ExcludeApp ID="GROOVE" />
+</Product>
+<Product ID="LanguagePack">
+<Language ID="nl-nl" /> </Product>
+</Add>
+<Property Name="SharedComputerLicensing" Value="0" /> <Property Name="SCLCacheOverride" Value="0" />
+<Property Name="AUTOACTIVATE" Value="0" />
+<Property Name="FORCEAPPSHUTDOWN" Value="FALSE" /> <Property Name="DeviceBasedLicensing" Value="0" /> <Updates Enabled="TRUE" />
+<RemoveMSI />
+<AppSettings>
+<Setup Name="Company" Value="Paction" />
+12 april 2023 14:03
+<User Key="software\microsoft\office\16.0\powerpoint\options" Name="defaultformat" Value="27" Type="REG_DWORD" App="ppt16" Id="L_SavePowerPointfilesas" />
+<User Key="software\microsoft\office\16.0\word\options" Name="defaultformat" Value="" Type="REG_SZ" App="word16" Id="L_SaveWordfilesas" />
+</AppSettings> </Configuration>
